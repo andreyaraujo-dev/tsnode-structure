@@ -1,0 +1,14 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "tsnode",
+  "password": "123123",
+  "database": "tsnode",
+  "logging": false,
+  "entities": ["src/app/models/*.ts"],
+  "migrations": ["src/database/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "src/database/migrations"
+  }
+}
